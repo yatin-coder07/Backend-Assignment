@@ -1,0 +1,115 @@
+# ------------------------------
+
+# 🔐 ENV FILES (Secrets)
+
+# ------------------------------
+
+.env
+.env.local
+.env.*.local
+*.env
+
+# ------------------------------
+
+# 🐍 PYTHON / DJANGO
+
+# ------------------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Django stuff
+
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual environments
+
+venv/
+env/
+ENV/
+.venv/
+
+# ------------------------------
+
+# 🧠 DJANGO MIGRATIONS (optional)
+
+# ------------------------------
+
+# Uncomment if you don’t want migrations tracked
+
+# */migrations/*
+
+# !*/migrations/**init**.py
+
+# ------------------------------
+
+# ⚛️ NEXT.JS / NODE
+
+# ------------------------------
+
+node_modules/
+.next/
+out/
+build/
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------------------------------
+
+# 🧾 TYPESCRIPT
+
+# ------------------------------
+
+*.tsbuildinfo
+
+# ------------------------------
+
+# 🧑‍💻 IDE / EDITOR FILES
+
+# ------------------------------
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+
+# 🧪 TEST / COVERAGE
+
+# ------------------------------
+
+coverage/
+htmlcov/
+.pytest_cache/
+
+# ------------------------------
+
+# 🐳 DOCKER (if used later)
+
+# ------------------------------
+
+docker-compose.override.yml
+
+# ------------------------------
+
+# 📦 MISC
+
+# ------------------------------
+
+*.bak
+*.tmp
+*.temp
